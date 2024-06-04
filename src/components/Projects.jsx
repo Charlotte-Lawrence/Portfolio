@@ -56,7 +56,7 @@ export default class ProjectsList extends Component {
                 
                 {
                     data.image ? (
-                        <img className="project-image" src={require(`../images/${data.image}`)} alt={`${data.title}`}/>
+                        <img className="project-image" src={require(`../images/${data.image}`)} loading="lazy" alt={`${data.title}`}/>
                     ) :
                     (
                         <div className="imgPlaceholder">No image available</div>
