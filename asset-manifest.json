@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Charlotte-Lawrence/portfolio/static/css/main.6bb70d50.css",
+    "main.js": "/Charlotte-Lawrence/portfolio/static/js/main.5906e658.js",
+    "static/js/453.906b0208.chunk.js": "/Charlotte-Lawrence/portfolio/static/js/453.906b0208.chunk.js",
+    "static/media/profileimage.png": "/Charlotte-Lawrence/portfolio/static/media/profileimage.cd76f17fa7684a0ba8eb.png",
+    "static/media/squareImage.png": "/Charlotte-Lawrence/portfolio/static/media/squareImage.43f345e31a9c2f01eb54.png",
+    "static/media/FeatureMatching.png": "/Charlotte-Lawrence/portfolio/static/media/FeatureMatching.5518351baf1bb58942e2.png",
+    "static/media/abstractBackground.jpeg": "/Charlotte-Lawrence/portfolio/static/media/abstractBackground.592916dae75d78819f6b.jpeg",
+    "static/media/backgroundNew.jpg": "/Charlotte-Lawrence/portfolio/static/media/backgroundNew.9dd2891fe198bda51b65.jpg",
+    "static/media/pixelEditor.jpg": "/Charlotte-Lawrence/portfolio/static/media/pixelEditor.26e6b00ddbcbd78c5193.jpg",
+    "static/media/networking.jpg": "/Charlotte-Lawrence/portfolio/static/media/networking.273e8861911abf071f72.jpg",
+    "static/media/office-paper.jpg": "/Charlotte-Lawrence/portfolio/static/media/office-paper.d1dad78141ef40612490.jpg",
+    "static/media/solar.jpg": "/Charlotte-Lawrence/portfolio/static/media/solar.561f541cf775b45b630f.jpg",
+    "static/media/background.jpg": "/Charlotte-Lawrence/portfolio/static/media/background.a3e3e17278622d0d1a4c.jpg",
+    "static/media/logo.svg": "/Charlotte-Lawrence/portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Charlotte-Lawrence/portfolio/index.html",
+    "main.6bb70d50.css.map": "/Charlotte-Lawrence/portfolio/static/css/main.6bb70d50.css.map",
+    "main.5906e658.js.map": "/Charlotte-Lawrence/portfolio/static/js/main.5906e658.js.map",
+    "453.906b0208.chunk.js.map": "/Charlotte-Lawrence/portfolio/static/js/453.906b0208.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6bb70d50.css",
+    "static/js/main.5906e658.js"
+  ]
+}
