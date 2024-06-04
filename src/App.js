@@ -1,11 +1,9 @@
-import logo from './logo.svg';
+import React, { Component } from 'react';
+import './App.css';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
 import About from './components/About';
 import ProjectsInfo from './components/ProjectsInfo';
-
-import './App.css';
-import React, { Component } from 'react';
 import Footer from './components/Footer';
 import Contact from './components/Contact'
 
@@ -14,7 +12,6 @@ class App extends Component {
     return (
       <div className="App">
         <Navbar></Navbar>
-        <div className='backgroundImage'></div>
         <Header></Header>
         <About></About>
         <ProjectsInfo></ProjectsInfo>
