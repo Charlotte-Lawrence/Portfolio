@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6d2dfbab.css",
-    "main.js": "/portfolio/static/js/main.3e32094b.js",
+    "main.css": "/portfolio/static/css/main.5f87dff2.css",
+    "main.js": "/portfolio/static/js/main.7a78dbec.js",
     "static/js/453.906b0208.chunk.js": "/portfolio/static/js/453.906b0208.chunk.js",
-    "static/media/squareImage.png": "/portfolio/static/media/squareImage.43f345e31a9c2f01eb54.png",
-    "static/media/FeatureMatching.png": "/portfolio/static/media/FeatureMatching.5518351baf1bb58942e2.png",
-    "static/media/abstractBackground.jpeg": "/portfolio/static/media/abstractBackground.592916dae75d78819f6b.jpeg",
+    "static/media/squareImage.jpg": "/portfolio/static/media/squareImage.969334a103eecc46bd12.jpg",
+    "static/media/background.jpg": "/portfolio/static/media/background.231e44d76c2c36573845.jpg",
+    "static/media/FeatureMatching.jpg": "/portfolio/static/media/FeatureMatching.45adad66b10deb03230d.jpg",
     "static/media/pixelEditor.jpg": "/portfolio/static/media/pixelEditor.26e6b00ddbcbd78c5193.jpg",
     "static/media/networking.jpg": "/portfolio/static/media/networking.273e8861911abf071f72.jpg",
     "static/media/office-paper.jpg": "/portfolio/static/media/office-paper.d1dad78141ef40612490.jpg",
     "static/media/solar.jpg": "/portfolio/static/media/solar.561f541cf775b45b630f.jpg",
     "index.html": "/portfolio/index.html",
-    "main.6d2dfbab.css.map": "/portfolio/static/css/main.6d2dfbab.css.map",
-    "main.3e32094b.js.map": "/portfolio/static/js/main.3e32094b.js.map",
+    "main.5f87dff2.css.map": "/portfolio/static/css/main.5f87dff2.css.map",
+    "main.7a78dbec.js.map": "/portfolio/static/js/main.7a78dbec.js.map",
     "453.906b0208.chunk.js.map": "/portfolio/static/js/453.906b0208.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d2dfbab.css",
-    "static/js/main.3e32094b.js"
+    "static/css/main.5f87dff2.css",
+    "static/js/main.7a78dbec.js"
   ]
 }
