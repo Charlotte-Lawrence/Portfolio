@@ -1,13 +1,275 @@
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  font-family: Arial, sans-serif;
+  margin-right: 15vw;
+  margin-left: 15vw;
+  padding: 0;
+  background: #9aa9c4;
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 8px, rgba(256, 256, 256, 0.5) 8px, rgba(256, 256, 256, 0.5) 10px);
+}
+.grid-container {
+  display: grid;
+  overflow:auto;
+  background-color: #4d90d3;
+  padding: 10px;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.grid-container > div:hover {
+  background-color:rgba(162, 211, 208, 0.8);
+  transform: scale(1.01);
+  transition: 0.3s;
+}
+
+.grid-container > div {
+  background-color: rgba(179, 235, 232, 0.8);
+  text-align: center;
+  font-size: 15px;
+  color:black;
+
+  position: relative;
+  overflow: hidden;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.centered {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.rounded {
+  border-radius: 10px;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.project-image {
+  display: block;
+  max-width: 80%;
+  max-height: 20vh;
+  width: auto;
+  height: auto;
+  justify-content: center;
+
+  border-radius: 10px;
+}
+
+/* Styles for navigation bar */
+nav {
+  background-color: #19191a;
+  color: #0f06c1;
+  text-align: center;
+  padding: 1rem 0;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  margin: 0 10px;
+}
+.nav-button {
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+.nav-button:hover {
+  background-color: #fff;
+  color: hwb(0 0% 100%);
+}
+header {
+  background-color: hwb(266 59% 9% / 0);
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  display: block;
+
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 5px 5px 0px 0px;
+  border-radius: 5px 5px 0px 0px; 
+}
+
+.homeContent
+{
+  display: grid;
+  grid-template-rows: auto auto;
+  align-items: center;
+  padding: 10px;
+  
+  background-size: cover;
+  background-color: #3469da;
+  color: white; 
+
+
+  background-image: url('./images/abstractBackground.jpeg');
+  
+
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 5px 5px 0px 0px;
+  border-radius: 5px 5px 0px 0px; 
+  
+}
+
+.homeImage
+{
+  max-width: 10vw;
+  width: auto;
+  border: #ffffff solid 2px;
+  border-radius: 20%;
+
+  
+}
+
+.full-screen { 
+  display: flex;
+  flex-direction: column;
+
+  
+}
+
+.full-screen h1 {
+  font-size: 3em;
+  margin: 0;
+  
+}
+.aboutSection{
+  padding: 1px;
+  background-color: white;
+  color: black;
+}
+.projectsSection
+{
+  padding: 0.5px;
+  background-color:#4d90d3;
+  color:rgb(0, 0, 0);
+
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 5px 5px 0px 0px;
+  border-radius: 5px 5px 0px 0px; 
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.projects{
+  padding: 5px;
+  background-color: #ffffff;
+  color: #000000;
+}
+p {
+  margin: 1%;
+}
+.projectsContent{
+  padding: 1%;
+  margin-bottom: 1vh;
+}
+
+.filter {
+  text-align: center;
+  padding: 5px;
+  background-color: #fdfdfd
+}
+
+.filter label {
+  margin-right: 10px;
+  color:rgb(38, 38, 38);
+}
+
+.filter select {
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid #4b4b4b;
+}
+
+.filter select:hover {
+  background-color: #eee;
+  transition: 0.3s;
+}
+
+.desc span{
+  display: block;
+  padding: 5px;
+}
+.desc {
+  background-color: white;
+  padding: 2px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+
+.footer{
+  height: calc(20vh - 68px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./images/abstractBackground.jpeg'); /* Set your image path here */
+  background-size: cover;
+  background-color: #414141;
+  color: white; 
+
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px 0px 5px 5px;
+  border-radius: 0px 0px 5px 5px; 
+}
+
+.footer ul{
+  list-style: none;
+}
+
+.contact-section {
+  display: block;
+  justify-content: space-evenly; 
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.contact-button {
+  background-color: #fff;
+  border: none; 
+  padding: 10px 20px; 
+  border-radius: 5px; 
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+
+}
+
+.git-button{
+  background-color: rgba(0, 0, 0, 0);
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  font-size: 4vh;
+  
+}
+.git-button:hover{
+  transform: scale(1.5);
+}
+
+.contact-button:hover {
+  background-color: #eee; 
+}
+
+.contact-button i {
+  margin-right: 5px; 
+}
+
+
