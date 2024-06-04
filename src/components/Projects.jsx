@@ -16,7 +16,7 @@ const projects = [
   {
     title: 'Image Feature Matching',
     projectLanguage: 'MATLAB',
-    image: 'FeatureMatching.png',
+    image: 'FeatureMatching.jpg',
     description: 'This project was a project in MATLAB to be able to match features in images to other images so objects can be identified.  It involves using the SIFT technique so that changing the scale, intensity or rotation of the image does not effect the feature matching.'
   },
   {

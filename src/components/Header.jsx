@@ -8,7 +8,7 @@ export default class Header extends Component {
         <div className="backgroundImage"></div>
         <div className="homeContent">
           <div className="image-container">
-            <img className="homeImage" src={require('../images/squareImage.png')}/>
+            <img className="homeImage" src={require('../images/squareImage.jpg')}/>
           </div>
           <div className="full-screen" id="home">
             <h1> <Typewriter text="Charlotte Lawrence" delay={100}/> </h1>

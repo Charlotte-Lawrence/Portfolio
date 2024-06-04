@@ -115,7 +115,7 @@ header {
   color: white; 
 
 
-  background-image: url('./images/abstractBackground.jpeg');
+  background-image: url('./images/background.jpg');
   
 
   -moz-border-radius: 0px;
@@ -127,7 +127,10 @@ header {
 .homeImage
 {
   max-width: 10vw;
+  max-height: 30vh;
   width: auto;
+  height: auto;
+ 
   border: #ffffff solid 2px;
   border-radius: 20%;
 
@@ -219,7 +222,7 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url('./images/abstractBackground.jpeg'); /* Set your image path here */
+  background-image: url('./images/background.jpg'); /* Set your image path here */
   background-size: cover;
   background-color: #414141;
   color: white; 
