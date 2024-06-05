@@ -1,4 +1,19 @@
-import React, { Component } from 'react';
+import React, { memo } from 'react';
+
+// Import images statically or use dynamic import strategy
+import officePaper from '../images/office-paper.jpg';
+import featureMatching from '../images/FeatureMatching.jpg';
+import solar from '../images/solar.jpg';
+import pixelEditor from '../images/pixelEditor.jpg';
+import networking from '../images/networking.jpg';
+
+const projectImages = {
+  'office-paper.jpg': officePaper,
+  'FeatureMatching.jpg': featureMatching,
+  'solar.jpg': solar,
+  'pixelEditor.jpg': pixelEditor,
+  'networking.jpg': networking,
+};
 
 const projects = [
   {
@@ -39,37 +54,36 @@ const projects = [
   }
 ];
 
-export default class ProjectsList extends Component {  
-  
-    render() {
-    const { selectedLanguage } = this.props;
-    const filteredProjects = selectedLanguage === 'All'
-      ? projects
-      : projects.filter(project => project.projectLanguage === selectedLanguage);
-    
-      return (
-        filteredProjects.map((data, index) =>{
-           
-            return <div className="project rounded">
-                <h2>{data.title}</h2> 
-                <p> Programming Language: {data.projectLanguage}</p> 
-                
-                {
-                    data.image ? (
-                        <img className="project-image" src={require(`../images/${data.image}`)} loading="lazy" alt={`${data.title}`}/>
-                    ) :
-                    (
-                        <div className="imgPlaceholder">No image available</div>
-                    )
-                }
-                <div className ="desc">
-                    {data.description.split('.  ').map((block, idx, arr) => (
-                        <span key={idx}>{block}{idx < arr.length - 1 ? '.' : ''}</span>
-                    ))}
-                </div>
-                
-            </div>
-        })
-    )
-  }
-}
+const ProjectsList = memo(({ selectedLanguage }) => {
+  const filteredProjects = selectedLanguage === 'All'
+    ? projects
+    : projects.filter(project => project.projectLanguage === selectedLanguage);
+
+  return (
+    <>
+      {filteredProjects.map((project) => (
+        <div key={project.title} className="project rounded">
+          <h2>{project.title}</h2>
+          <p>Programming Language: {project.projectLanguage}</p>
+          {project.image ? (
+            <img
+              className="project-image"
+              src={projectImages[project.image]}
+              loading="lazy"
+              alt={project.title}
+            />
+          ) : (
+            <div className="imgPlaceholder">No image available</div>
+          )}
+          <div className="desc">
+            {project.description.split('.  ').map((block, idx, arr) => (
+              <span key={idx}>{block}{idx < arr.length - 1 ? '.' : ''}</span>
+            ))}
+          </div>
+        </div>
+      ))}
+    </>
+  );
+});
+
+export default ProjectsList;

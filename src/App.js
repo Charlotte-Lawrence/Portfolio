@@ -1,25 +1,23 @@
-import React, { Component } from 'react';
-import './App.css';
+import React from 'react';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
 import About from './components/About';
 import ProjectsInfo from './components/ProjectsInfo';
 import Footer from './components/Footer';
-import Contact from './components/Contact'
+import Contact from './components/Contact';
+import './App.css';
 
-class App extends Component {
-  render(){
-    return (
-      <div className="App">
-        <Navbar></Navbar>
-        <Header></Header>
-        <About></About>
-        <ProjectsInfo></ProjectsInfo>
-        <Contact></Contact>
-        <Footer></Footer>
-      </div>
-    )
-  }
-}
+const App = () => {
+  return (
+    <div className="App">
+      <Navbar />
+      <Header />
+      <About />
+      <ProjectsInfo />
+      <Contact />
+      <Footer />
+    </div>
+  );
+};
 
-export default App;
+export default React.memo(App);

@@ -4,8 +4,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  font-family: Arial, sans-serif;
   margin-right: 15vw;
   margin-left: 15vw;
   padding: 0;
@@ -103,7 +101,7 @@ header {
   border-radius: 5px 5px 0px 0px; 
 }
 
-.homeContent
+.homeSection
 {
   display: grid;
   grid-template-rows: auto auto;
@@ -217,7 +215,7 @@ p {
 
 
 .footer{
-  height: calc(20vh - 68px);
+  height: 10vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
