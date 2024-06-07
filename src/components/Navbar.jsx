@@ -2,7 +2,7 @@ import React, { memo } from 'react';
 
 const Navbar = () => {
   return (
-    <nav className="centered rounded" aria-label="Main navigation">
+    <nav className="navbar centered rounded" aria-label="Main navigation">
       <ul>
         <li><a href="#home" className="nav-button">Home</a></li>
         <li><a href="#about" className="nav-button">About Me</a></li>
