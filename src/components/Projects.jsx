@@ -36,7 +36,7 @@ const projects = [
     title: 'Travelling Salesman Problem: Genetic Algorithm',
     projectLanguage: 'Python',
     image: 'travellingSalesman.jpg',
-    description: 'Solving the Travelling Salesman problem using a Genetic Algorithm.  For the case of the Travelling Salesman Problem we can utilise a Genetic Algorithm to discover potential paths to generate an optimal solution: I have used permutation encoding, ordered crossover and swap mutation to generate new chromosomes in the population.  This proejct is described in detail on my GitHub repository here: ',
+    description: 'Solving the Travelling Salesman problem using a Genetic Algorithm.  For the case of the Travelling Salesman Problem we can utilise a Genetic Algorithm to discover potential paths to generate an optimal solution: I have used permutation encoding, ordered crossover and swap mutation to generate new chromosomes in the population.  This project is described in detail on my GitHub repository here: ',
     gitLink: 'https://github.com/Charlotte-Lawrence/Travelling-Salesman-GA'
   },
   {
